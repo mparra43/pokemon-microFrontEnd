@@ -1,0 +1,27 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+h2 {
+  font-size: 7rem !important;
+}
+
+.mx-8 {
+  margin-left: 10rem !important;
+  margin-right: 10rem !important;
+}
+
+.img-pokemon {
+  width: 8rem;
+  height: 8rem;
+}
+
+@media (max-width: 991px) {
+  /* Para pantallas medianas (md) */
+  h2 {
+    font-size: 5rem !important;
+  }
+
+  .mx-8 {
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+  }
+}
